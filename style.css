@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 2em;
+    font-family: 'Times New Roman';
+}
+h1{
+    text-decoration: underline;
+}
+.logo{
+    width: 100px;
+    height: 90px;
+}
+.modos{
+    text-align: right;
+    margin: 1em;
+}
+.lunasol{
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.lunasol:hover{
+    background-color: cornflowerblue;
+}
+.ejemplo{
+    font-family: 'Franklin Gothic Medium';
+    font-size: larger;
+}
+.qr{
+    width: 300px;
+    height: 300px;
+}
+.boton{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 242, 225);
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+    border: groove darkslateblue 6px;
+    margin: 1em;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: rgb(175, 203, 255);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 12px;
+}
